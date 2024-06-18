@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--FUERZA AL VISOR A OCUPAR LA TOTALIDAD DISPONIBLE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <!--CODIFICACIÓN DE CARÁCTERES QUE VEREMOS EN EL VISOR-->
+    <meta charset="UTF-8">
+
+     <!--VINCULAMOS HOJAS DE ESTILO-->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/type.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1>CONCURS DE FOTOGRAFIA <span> de Cases Rurals</span></h1>
+            <img src="img/menu.png" alt="vector">
+            <nav>
+                <ul>
+                    <li> <a href="#" title="Enlace a Inici">INICI</a>
+                    </li>
+    
+                    <li> <a href="#" title="Enlace a Fotografies">FOTOGRAFIES</a>
+                    </li>
+    
+                    <li> <a href="#" title="Enlace a Bases">BASES</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>
+        <picture class="cabecerica">
+                        
+            <source srcset="img/cabecera@3x.png 3x" media="(min-width:2000px)">
+            <source srcset="img/cabecera-2x.jpg 2x" media="(min-width:640px)">
+            <source srcset="img_movil/cabecera.jpg" media="(min-width:360px)" >
+               <img src="img/cabecera@3x.jpg" alt="cabecera">
+        </picture> 
+            
+    </header>
+    <section>
+
+        <h2>FOTOGRAFIES</h2>
+        <nav class="inici">
+            <ol>
+                <a href="#">
+                <li>INICI</li></a>
+                <li>></li>
+                <a href="#">
+                <li>FOTOGRAFIES</li></a>
+            </ol>
+        </nav>
+    
+    <!--Primera card-->
+    <div class="contenedor">
+    <article class="card">        
+        <!--Info-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a>
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar1@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar1@2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar1.png" media="(min-width:360px)">
+
+                       <img src="img/avatar1@3x.png" alt="avatar1">
+                </picture>
+                <h3>Marta Torrijos Zabala</h3>       
+            </footer>
+        </div>        
+        <!--foto-->
+        <picture class="imagen1">
+            <source srcset="img/imagen1-3x.jpg 3x" media="(min-width:2000px)">
+            <source srcset="img/imagen1-2x.jpg 2x" media="(min-width:640px)">
+            <source srcset="img_movil/imatge1-360.jpg" media="(min-width:360px)">
+               <img src="img/imagen1-3x.jpg" alt="imagen1">
+        </picture>
+    </article>
+
+    <!--SEGUNDA CARD-->
+    <article class="card">
+        <!--INFO-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a> 
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar2@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar2-2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar2.png" media="(min-width:360px)">
+                       <img src="img/avatar2@3x.png" alt="avatar2">
+                </picture>
+                <h3>Melihcan Yorulmaz</h3>
+            </footer>
+        </div>
+    <!--FOTO-->
+    <picture class="imagen2">
+        <source srcset="img/imagen2@3x.png 3x" media="(min-width:2000px)">
+        <source srcset="img/imagen2@2x.png 2x" media="(min-width:640px)">
+        <source srcset="img_movil/imatge2-360.jpg" media="(min-width:360px)" >
+           <img src="img/imagen2@3x.jpg" alt="imagen2">
+    </picture>
+    </article>
+
+    <!--TERCERA CARD-->
+    <article class="card">
+        <!--INFO-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a> 
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar3@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar3-2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar3.png" media="(min-width:360px)">
+                       <img src="img/avatar3@3x.png" alt="avatar3">
+                </picture>
+                <h3>Nicholas Nguyen</h3>
+            </footer>
+        </div>
+    <!--FOTO-->
+    <picture class="imagen3">
+        <source srcset="img/imagen3@3x.jpg 3x" media="(min-width:2000px)">
+        <source srcset="img/imagen3@2x.jpg 2x" media="(min-width:640px)">
+        <source srcset="img_movil/imatge3-360.jpg" media="(min-width:360px)">
+           <img src="img/imagen3@3x.jpg" alt="imagen3">
+    </picture>
+    </article>
+
+    <!--CUARTA CARD-->
+    <article class="card">
+        <!--INFO-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a> 
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar4@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar4-2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar4.png" media="(min-width:360px)">
+                       <img src="img/avatar4@3x.png" alt="avatar4">
+                </picture>
+                <h3>Yolanda Cabrera Sobrino</h3>
+            </footer>
+        </div>
+    <!--FOTO-->
+    <picture class="imagen4">
+        <source srcset="img/imagen4@3x.jpg 3x" media="(min-width:2000px)">
+        <source srcset="img/imagen4@2x.jpg 2x" media="(min-width:640px)">
+        <source srcset="img_movil/imatge4-360.jpg" media="(min-width:360px)">
+           <img src="img/imagen4@3x.jpg" alt="imagen4">
+    </picture> 
+    </article>
+
+    <!--QUINTA CARD-->
+    <article class="card">
+        <!--INFO-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a>
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar5@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar5-2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar5.png" media="(min-width:360px)">
+                       <img src="img/avatar5@3x.png" alt="avatar5">
+                </picture>
+                <h3>Isaac Alcides Meléndez</h3>
+            </footer>
+        </div>
+    <!--FOTO-->
+    <picture class="imagen5">
+        <source srcset="img/imagen5@3x.jpg 3x" media="(min-width:2000px)">
+        <source srcset="img/imagen5@2x.jpg 2x" media="(min-width:640px)">
+        <source srcset="img_movil/imatge5-360.jpg" media="(min-width:360px)">
+           <img src="img/imagen5@3x.jpg" alt="imagen5">
+    </picture> 
+    </article>
+
+    <!--SEXTA CARD-->
+    <article class="card">
+        <!--INFO-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a> 
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar6@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar6-2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar6.png" media="(min-width:360px)">
+                       <img src="img/avatar6@3x.png" alt="avatar6">
+                </picture>
+                <h3>Emilio Reyes Cal Cal</h3>
+            </footer>
+        </div>
+        <!--FOTO-->
+        <picture class="imagen6">
+            <source srcset="img/imagen6@3x.jpg 3x" media="(min-width:2000px)">
+            <source srcset="img/imagen6@2x.jpg 2x" media="(min-width:640px)">
+            <source srcset="img_movil/imatge6-360.jpg" media="(min-width:360px)">
+                <img src="img/imagen6@3x.jpg" alt="imagen6">
+        </picture>
+    </article>
+
+    <!--SEPTIMA CARD-->
+    <article class="card">
+        <!--INFO-->
+        <div>
+            <header>
+                <span class="icon corazon">
+                    <a href="#">
+                    <img src="img/icona-like.svg" alt="corazón para hacer like"></a>
+                </span>
+                <span class="icon ojo">
+                    <a href="#">
+                    <img src="img/icona-veure.svg" alt="ojo para ver la imagen"></a> 
+                </span>
+            </header>
+            <footer>
+                <picture>
+                    <source srcset="img/avatar7@3x.png 3x" media="(min-width:2000px)">
+                    <source srcset="img/avatar7-2x.png 2x" media="(min-width:640px)">
+                    <source srcset="img/avatar7.png" media="(min-width:360px)">
+                       <img src="img/avatar7@3x.png" alt="avatar7">
+                </picture>
+                <h3>Jacqueline Guerin</h3>
+            </footer>
+        </div>
+        <!--FOTO-->
+        <picture class="imagen7">
+            <source srcset="img/imagen7@3x.jpg 3x" media="(min-width:2000px)">
+            <source srcset="img/imagen7@2x.jpg 2x" media="(min-width:640px)">
+            <source srcset="img_movil/imatge7-360.jpg" media="(min-width:360px)">
+               <img src="img/imagen7@3x.jpg" alt="imagen7">
+        </picture>
+    </article>
+</div>
+</section>
+</body>
+</html>

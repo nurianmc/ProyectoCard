@@ -1,0 +1,341 @@
+/*INICIO ESTILOS HEADER*/
+/*APLICA A header*/
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 100px;
+    font-size: 32px;
+    top: 70px;
+}
+
+.top nav ul {
+      display: flex;
+      width: 372px;
+      justify-content: space-between;
+      font-size: 18px;
+      color: #000;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-right: 80px;
+}
+
+.top nav ul li {
+    list-style-type: none;
+
+}
+
+.top img {
+    margin-left: 284px;
+    margin-bottom: 38px;    
+}
+
+.top {   
+    height: 200px;
+  }
+
+  .top span {
+    color: gray;
+  }
+
+  .top nav {
+    align-self: end;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 850px;
+    top: 60px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+ h2 {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.inici ol {
+    list-style-type: none;
+    display: flex;
+    width: 199px;
+    justify-content: space-between;  
+    margin-bottom: 15px;
+    margin-left: 99px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #585555;
+}
+
+.card:hover .imagen1 {
+    filter: brightness(70%);
+}
+
+.card:hover .imagen2 {
+    filter: brightness(70%);
+}
+
+.card:hover .imagen3 {
+    filter: brightness(70%);
+}
+
+.card:hover .imagen4 {
+    filter: brightness(70%);
+}
+
+.card:hover .imagen5 {
+    filter: brightness(70%);
+}
+
+.card:hover .imagen6 {
+    filter: brightness(70%);
+}
+
+.card:hover .imagen7 {
+    filter: brightness(70%);
+}
+
+.top picture {
+    width: 0;
+}
+
+.cabecerica img {
+    width: 100%;
+}
+
+/*INICIO ESTILOS CARD*/
+
+/*Aplica a <article>*/
+
+.card {
+    width: 350px;
+    height: 400px;
+}
+
+/*Aplica a todos los iconos*/
+.icon {
+    
+    justify-content: center; /*centra la <img> en la x*/
+    align-items: center; /*centra la <img> en la y*/
+    
+    width: 60px;
+    height: 60px;
+    background-color:#303030; 
+    /*RGB, Red 30, Green 30, Blue 30*/  
+}
+
+.corazon img {
+    width: 45px;
+    height: 45px;
+    margin: 8px 7px 7px 8px;
+}
+
+.ojo img {
+    width: 45px;
+    height: 45px;
+    margin: 8px 7px 7px 8px;
+}
+
+.card header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 10px 0 0;
+    width: 100%;    
+}
+
+footer {
+    display: flex;
+    padding: 0 0 25px 25px;
+    gap: 23px;
+    align-items: center;
+    width: 100%; 
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    align-items: flex-end;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover div {
+    opacity: 1;
+}
+
+.imagen1 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+.imagen2 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+
+.imagen3 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+.imagen4 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+.imagen5 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+.imagen6 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+.imagen7 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 5px;
+    z-index: -5;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 105px;
+    gap: 40px;
+    bottom: 40px;
+}
+
+/*FIN ESTILOS CARD*/
+
+/*INICI MEDIA QUERIES*/
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    nav ul li {
+        
+        display: none;
+    }
+
+    .card div {
+        display: none;
+    }
+
+    .card img {
+        width: 320px;
+        height: 280px;        
+    }
+
+    .card {
+        width: 350px;
+        height: 280px;
+    }
+
+    h1 {
+        font-size: x-large;
+        margin-left: 45px;
+    }
+
+    h2 {
+        margin-left: 22px;
+    }
+
+    .inici ol {
+        margin-left: 22px;
+        margin-bottom: 55px;
+    }
+
+    .imagen1 {
+        margin-right: 40px;
+    }
+   
+    .contenedor {
+       display: flex;
+       flex-wrap: wrap;
+       margin: 20px;
+       gap: 40px;
+    }
+    .card:hover .imagen1 {
+        filter: none;
+    }
+    
+    .card:hover .imagen2 {
+        filter: none;
+    }
+    
+    .card:hover .imagen3 {
+        filter: none;
+    }
+    
+    .card:hover .imagen4 {
+        filter: none;
+    }
+    
+    .card:hover .imagen5 {
+        filter: none;
+    }
+    
+    .card:hover .imagen6 {
+        filter: none;
+    }
+    
+    .card:hover .imagen7 {
+        filter: none;
+    }
+   
+}
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    
+    .top img {
+        display: none;
+    }
+
+}
+
+@media screen  and (min-width: 769px) and (max-width:2000px) {
+
+    .top img {
+        display: none;       
+    }
+
+}
